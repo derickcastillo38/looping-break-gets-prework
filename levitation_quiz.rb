@@ -5,7 +5,6 @@ def levitation_quiz
   response = gets
   until response == "Wingardium Leviosa"
     levitation_quiz
-  else
-    "You passed the quiz!"
   end
+  "You passed the quiz!"
 end
